@@ -1,0 +1,41 @@
+SIMPLEX 
+
+Estrutura:
+
+TX (transmissor) > Rx (receptor)
+*Não há inversão dos papeis, ou seja, unidirecional
+*Usado em teclados normais
+
+Half-Duplex
+É um sistema de transmissão bidirecional
+TX (transmissor) -> Rx (receptor)
+                <-
+*No entanto, não é possivel transmitir dados simultaneamente 
+*Usado em Walkie-Talkie e Cabos de rede
+
+Full-Duplex
+Usado em rede telefonica, é considerado verdadeiramente funcional bidirecional
+*Não possui colisão de dados
+
+Tipos de Transmissões:
+
+Broadcast = Todos da rede são considerados destinatarios *Outro nome é a difusão
+Multicast = Ele dispara para um grupo seleto (previamente) da rede 
+Unicast = Apenas um pc é considerado destinatario
+
+Componentes para Redes
+
+Cabo Coaxial - Usado nas tv, menos suscetíveis a ondas eletromagneticas  *Primeiro criado
+Cabos de par trançado:
+UTP - Não blindado
+FTP - Blindagem Simples
+STP - Blindagem individual
+SFTP - Blindagem com Aluminio
+
+Cabo de Fibra Optica - 
+Fibra Multimodo (MM):
+A fibra MM possui um núcleo maior, permitindo múltiplos caminhos para a luz viajar, e é normalmente usada para distâncias mais curtas e aplicações de menor largura de banda.
+Fibra Monomodo (SM):
+A fibra SM possui um núcleo menor, guiando a luz ao longo de um único caminho, e é usada para distâncias mais longas e aplicações de maior largura de banda, como telecomunicações de longa distância.
+Fibra Óptica Plástica (POF):
+A POF, como o nome sugere, utiliza plástico como material do núcleo e é comumente usada para aplicações de consumo e conexões de curto alcance.
