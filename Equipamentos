@@ -1,0 +1,53 @@
+Equipamentos de expansão:
+Amplia os limites da conexão além dos cabos
+Principais são:
+  Hubs
+    Repetidor de muitas portas
+    Também não há filtragem de pacotes
+    Transmite um pacote por todas as portas, exceto pela aquela que ele entrou
+    Não evita colisões
+    Uma interrupção não afeta a rede inteira
+    Permite um monitoramentos no trafego de rede
+    Tipos:
+          Passivo - Recebe a informação e devolve sem regenerar 
+          Ativo - Recebe a Informação e Regenera
+          Inteligente - Monitora a Rede
+          Hubs Empilhaveis - É possivel ligar um hub ao outro, considerando ele como unico, não como varios
+  Repetidores
+    Aumenta a extensão da rede por meio da regerenaração de dados
+    Não filtra Pacotes
+    Transforma segmentos fisicos isolados na mesma
+Equipamentos de Segmentações
+  Ponte(Bridge)
+    Liga dois segmentos de rede
+    Reduz Gargalos por fila de espera
+    Não transmite ruidos, erros ou pacotes mal-formados
+    Filtra mensagens de tal forma que somente as mensagens endereçadas.
+    Armazena dados estatisticos de trafego
+  Switch
+    Só dispara os pacotes ou requests para as maquinas selecionadas
+      Tipos: 
+        Gerenciaveis - Acesso a Configurações
+                       Controle de Trafego
+                       Isolamentos de Portas
+        Não Gerenciaveis - Funcionamento Automatico
+  Roteadores
+    Decidem sobre qual caminho o trafego de informação vai serguir
+    Fazem roteamento de pacotes entre as redes
+    Reduz a pressão sobre a redeS
+    Não enviam dados corrompidos
+  Gateway
+    São equipamentos que podem ser um computador com duas ou mais placas de rede, ou um dispositivo dedicado
+    Pode ser totalmente software (servidor) ou um Hardware (PC)
+    Conecta duas arquitetura de redes diferentes.7
+    Conecta redes com conjuntos de regulamentos e regras de comunicações diferentes
+    Resolvem problemas de diferença entre tamanhos de pacotes, formas de acesso
+    Gateway funciona como um interprete
+
+Equipamentos para Interligação
+  Conversor de Mídia
+    Transformar o sinal para adequação ao meio físico
+    Permite a existẽncia de conexão mistas na rede
+    Flexibidade
+    PreçoS
+    
