@@ -1,10 +1,31 @@
-Camada de aplicação
-DHCP SMTP SNMP HTT FTP
-Camada de Transporte
-UDP TCP
-Camada de Internet
-ICMP
-IP
-Camada Host/Rede
-PPP SLIP ARP
-Modem USART Ethernet
+## Estrutura da Arquitetura TCP/IP
+
+A arquitetura TCP/IP é organizada em **4 camadas principais**, cada uma com responsabilidades específicas. Aqui está a explicação de cada camada:
+
+### **Camada de Aplicação** (Topo)
+Fornece serviços diretamente aos usuários e aplicações:
+- **DHCP**: Atribuição automática de endereços IP
+- **SMTP**: Envio de emails
+- **SNMP**: Gerenciamento de rede
+- **HTTP**: Navegação web
+- **FTP**: Transferência de arquivos
+
+### **Camada de Transporte**
+Gerencia a comunicação fim-a-fim entre aplicações:
+- **TCP**: Protocolo confiável, orientado à conexão (garante entrega)
+- **UDP**: Protocolo rápido, sem conexão (não garante entrega)
+
+### **Camada de Internet**
+Responsável pelo roteamento de pacotes através da rede:
+- **IP**: Endereçamento e roteamento de pacotes
+- **ICMP**: Mensagens de controle e erro (ping, traceroute)
+
+### **Camada Host/Rede** (Base)
+Interface com o hardware de rede:
+- **PPP/SLIP**: Protocolos para conexões ponto-a-ponto
+- **ARP**: Resolução de endereços (IP → MAC)
+- **Ethernet**: Padrão de rede local
+- **Modem/USART**: Interfaces físicas de comunicação
+
+### **Fluxo de Dados**
+Os dados fluem de cima para baixo no envio e de baixo para cima no recebimento, com cada camada adicionando/removendo suas informações específicas (headers).
