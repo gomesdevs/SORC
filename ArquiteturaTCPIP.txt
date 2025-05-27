@@ -1,0 +1,10 @@
+Camada de aplicação
+DHCP SMTP SNMP HTT FTP
+Camada de Transporte
+UDP TCP
+Camada de Internet
+ICMP
+IP
+Camada Host/Rede
+PPP SLIP ARP
+Modem USART Ethernet
